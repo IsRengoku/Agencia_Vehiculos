@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e82bf305726b42cf9acfb3cb69ad73b7" Name="Diagram1">
+        <EntityTypeShape EntityType="Agencia_VehiculosModel.Agencia" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Agencia_VehiculosModel.Cliente" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="Agencia_VehiculosModel.Marca_vehiculos" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Agencia_VehiculosModel.sysdiagram" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Agencia_VehiculosModel.Vehiculo" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Agencia_VehiculosModel.Venta" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="Agencia_VehiculosModel.FK__Agencias__Vehicu__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="Agencia_VehiculosModel.FK__Ventas__Cliente__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="Agencia_VehiculosModel.FK__Vehiculos__Marca__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="Agencia_VehiculosModel.FK__Ventas__Vehiculo__6C190EBB" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
